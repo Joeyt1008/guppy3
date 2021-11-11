@@ -36,5 +36,5 @@ install:
 script:
   - $PYTHON --version
   - ./travis.sh script
-  - pytest
+ 
 after_success: ./travis.sh after_success
